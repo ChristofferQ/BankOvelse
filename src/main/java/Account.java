@@ -31,7 +31,7 @@ public class Account {
     }
 
     public int depositAmount(int amount){
-        // TODO: skal debugges og returnere ny saldo. Smid fejl hvis amount < 0.
+        // TODO: skal debugges og returnere ny saldo. Smid fejl hvis amount. < 0.
         transactions.add(new Transaction(amount, new Date()));
         return 0;
     }
